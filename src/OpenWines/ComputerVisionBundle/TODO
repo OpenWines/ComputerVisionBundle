@@ -1,0 +1,5 @@
+- [x] Make computer vision OCR a service, and use it in the Command
+- [ ] http://symfony.com/doc/current/bundles/best_practices.html
+- [ ] http://symfony.com/doc/current/bundles/SensioGeneratorBundle/commands/generate_bundle.html
+- [ ] http://symfony.com/doc/current/bundles/configuration.html
+- [ ] add an -o --output to the command to write a CSV - use CSV lib

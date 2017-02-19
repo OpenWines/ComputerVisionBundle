@@ -1,0 +1,26 @@
+{
+    "name": "openwines/computer-vision-bundle",
+    "description": "Provides a Microsoft Computer Vision API integration to your Symfony Project.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": ["ocr", "computer vision", "vision", "optical character recognition", "microsoft"],
+    "homepage" : "http://openwines.eu",
+    "authors": [
+        {
+            "name": "Ronan Guilloux",
+            "email": "ronan.guilloux@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "OpenWines\\ComputerVsionBundle\\": "src" }
+    },
+    "support": {
+        "issues": "https://github.com/OpenWines/ComputerVisionBundle/issues"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
