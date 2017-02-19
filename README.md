@@ -52,3 +52,14 @@ And copy it in `app/config/parameters.yml`:
         (...)
         microsoft_computer_vision.api_token: myToken
 ```
+
+Step 3: Test Usage
+------------------
+
+Perform an OCR on `vendor/openwines/computer-vision-bundle/src/OpenWines/ComputerVisionBundle/Resources/data/wines/`
+and put the result in a `./wines.csv` file:
+
+```console
+php bin/console cv:ocr vendor/openwines/computer-vision-bundle/src/OpenWines/ComputerVisionBundle/Resources/data/wines/ fr -o ./wines.csv
+cat wines.csv
+```

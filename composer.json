@@ -11,9 +11,12 @@
             "email": "ronan.guilloux@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "league/csv": "^8.2"
+    },
     "autoload": {
-        "psr-4": { "OpenWines\\ComputerVisionBundle\\": "src/" }
+        "psr-0": { "OpenWines\\ComputerVisionBundle\\": "src/" }
     },
     "support": {
         "issues": "https://github.com/OpenWines/ComputerVisionBundle/issues"
