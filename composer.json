@@ -13,7 +13,7 @@
     ],
     "require": {},
     "autoload": {
-        "psr-4": { "OpenWines\\ComputerVsionBundle\\": "src" }
+        "psr-4": { "OpenWines\\ComputerVisionBundle\\": "src/" }
     },
     "support": {
         "issues": "https://github.com/OpenWines/ComputerVisionBundle/issues"
