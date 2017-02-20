@@ -8,9 +8,13 @@ Microsoft Computer Vision API Bundle for Symfony
 Service presentation
 --------------------
 
-With the Computer Vision API users can analyze images to use optical character recognition to identify text found in images.
+With [Microsoft's Computer Vision API](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api) users can analyze images to use optical character recognition to identify text found in images, directly from a Symfony project.
 
 The cloud-based Computer Vision API provides developers with access to advanced algorithms for processing images and returning information. By uploading an image or specifying an image URL, Microsoft Computer Vision algorithms can analyze visual content in different ways based on inputs and user choices. 
+
+The OCR is available:
+- as a service, available in your Symfony's dependency injection container 
+- as a command line tool, with arguments and options (see below)
 
 Supported locales
 -----------------
