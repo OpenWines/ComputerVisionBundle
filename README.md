@@ -5,14 +5,20 @@ Microsoft Computer Vision API Bundle for Symfony
 
 >"o DEPUIS 1768 VIGNOBLES CHÉNEAU VITICULTEURS RÉCOLTANTS DE PÈRE EN FILS www.vignoblescheneau.com MUSCADET SÈVRE ET MAINE APPELLATION D'ORIGINE PROTÉGÉE SUR LIE Château de la Cormerais est une ancienne seigneurie du Moyen-Age Situé sur la commune de Monnières, il est la propriété de la Famille Chéneau depuis 1856. Régulièrement récompensé, le Muscadet Sèvre et Maine Sur Lie Château de la Cormerais est une référence des Vignobles Chéneau implantés dans la région des Marches de Bretagne depuis d oil naitra une passion transmise de père en fils. EN BOUTEILLE AU CHÂTEAU ET FILS • BEAU-SOLEIL • 44330 MOUZILLON • BRETAGNE 3 557090 013504"
 
-
-The cloud-based Computer Vision API provides developers with access to advanced algorithms for processing images and returning information. By uploading an image or specifying an image URL, Microsoft Computer Vision algorithms can analyze visual content in different ways based on inputs and user choices. 
+Service presentation
+--------------------
 
 With the Computer Vision API users can analyze images to use optical character recognition to identify text found in images.
 
-OCR technology detects text content in an image and subsequently extracts the identified text into a machine-readable character stream used for search and numerous other purposes ranging from medical records to security and banking. It automatically detects the language. OCR saves time and provides convenience for users by allowing them to simply take photos of text instead of transcribing text.
+The cloud-based Computer Vision API provides developers with access to advanced algorithms for processing images and returning information. By uploading an image or specifying an image URL, Microsoft Computer Vision algorithms can analyze visual content in different ways based on inputs and user choices. 
+
+Supported locales
+-----------------
 
 The 21 languages supported by OCR are Chinese Simplified, Chinese Traditional, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, and Turkish. 
+
+Accuracy
+--------
 
 The accuracy of text recognition depends on the quality of the image. An inaccurate reading may be caused by the following:
 
@@ -24,7 +30,10 @@ The accuracy of text recognition depends on the quality of the image. An inaccur
 - Oversized or missing capital letters at the beginnings of words
 - Subscript, superscript, or strikethrough text
 
-Limitations: On photos where text is dominant, false positives may come from partially recognized words. On some photos, especially photos without any text, precision can vary a lot depending on the type of image.
+Limitations 
+-----------
+
+On photos where text is dominant, false positives may come from partially recognized words. On some photos, especially photos without any text, precision can vary a lot depending on the type of image.
 
 - Small text size
 - Complex backgrounds, shadows or glare over text or perspective distortion
@@ -46,7 +55,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-$ composer require openwines/computer-vision-bundle "~1"
+$ composer require openwines/computer-vision-bundle "dev-master"
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -88,7 +97,7 @@ And copy it in `app/config/parameters.yml`:
 ```yaml
     parameters:
         (...)
-        microsoft_computer_vision.api_token: myToken
+        microsoft_computer_vision.api_token: aSecretTokenNotToPushOnGithub
 ```
 
 Use it as a service
