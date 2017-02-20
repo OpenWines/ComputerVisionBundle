@@ -2,14 +2,6 @@
 
 namespace OpenWines\ComputerVisionBundle\ComputerVision;
 
-/**
- * ComputerVisionClient
- *
- * @author    Ronan Guilloux <ronan.guilloux@gmail.com>
- * @copyright 2017 Ronan Guilloux
- * @license   MIT
- */
-
 use OpenWines\ComputerVisionBundle\Helper\XMLHelper;
 use GuzzleHttp\Client as GuzzleHttpClient;
 use Symfony\Component\HttpFoundation\File\File;
@@ -17,9 +9,9 @@ use Symfony\Component\HttpFoundation\File\File;
 /**
  * ComputerVisionClient
  *
- * @author    Ronan Guilloux <ronan.guilloux@akeneo.com>
- * @copyright 2016 Akeneo SAS (http://www.akeneo.com)
- * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @author    Ronan Guilloux <ronan.guilloux@gmail.com>
+ * @copyright 2017 Ronan Guilloux
+ * @license   MIT
  */
 class ComputerVisionClient
 {

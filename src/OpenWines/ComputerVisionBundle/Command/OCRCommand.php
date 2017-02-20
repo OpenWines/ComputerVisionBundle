@@ -56,7 +56,7 @@ EOT
         $this
             // configure an argument
             ->addArgument('source', InputArgument::REQUIRED, 'base64 encoded, URL, or absolute path. Single image or folder.')
-            ->addArgument('lang', InputArgument::REQUIRED, 'The BCP-47 language code of the text to be detected in the image.The default value is "unk", then the service will auto detect the language of the text in the image.')
+            ->addArgument('lang', InputArgument::REQUIRED, 'The BCP-47 language code of the text to be detected in the image. The default value is "unk", then the service will auto detect the language of the text in the image.')
             ->addOption('output', 'o', InputArgument::OPTIONAL, 'The optional CSV file output path')
         ;
     }
