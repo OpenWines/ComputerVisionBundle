@@ -51,6 +51,15 @@ API Documentation
 - [Computer Vision API documentation](https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fc)
 
 
+API Usage conditions
+--------------------
+
+- Free: up to 5000 calls per month
+- Throttling: 10 transactions per second
+- Charged: $1.50 per 1000 calls
+
+No credit card required to get an API Token.
+
 Installation
 ============
 
