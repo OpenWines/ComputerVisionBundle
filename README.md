@@ -124,8 +124,7 @@ $result = $this
 Use it in Command-line
 ----------------------
 
-Perform an OCR on `vendor/openwines/computer-vision-bundle/src/OpenWines/ComputerVisionBundle/Resources/data/wines/`
-and put the result in a `./wines.csv` file:
+Basic usage: Perform an OCR on a file or an images folder, then either output or create a CSV file of the result(s), one row per image.
 
 ```console
 Usage:
